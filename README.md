@@ -1,5 +1,6 @@
 #Pollen Prediction from CALIPSO / MPL Lidar Optical Properties
 
+ML_pollen_CALIPSO_cleaned_v2.ipynb 
 Goal: Predict ground-observed pollen concentrations (by species) using satellite/ground-based lidar-derived aerosol optical properties (CALIPSO, MPLNET) combined with meteorological and land-cover covariates, via a Random Forest regression model.
 
 Structure
@@ -12,3 +13,4 @@ Train/test split
 Train Random Forest
 Evaluate + feature importance
 Per-species performance metrics
+
