@@ -1,7 +1,8 @@
 #Pollen Prediction from CALIPSO / MPL Lidar Optical Properties
 
 This contains two set of script:
-1:calipso_regrid_pipeline.py
+
+calipso_regrid_pipeline.py
 ---------------
 
 Reads CALIPSO L2 05km Aerosol Profile (Standard-V4) HDF files, applies
@@ -25,8 +26,8 @@ Pipeline stages
 
    
 
-2. ML_pollen_CALIPSO_cleaned_v2.ipynb
-   ---------------
+ML_pollen_CALIPSO_cleaned_v2.ipynb
+---------------
 Goal: Predict ground-observed pollen concentrations (by species) using satellite/ground-based lidar-derived aerosol optical properties (CALIPSO, MPLNET) combined with meteorological and land-cover covariates, via a Random Forest regression model.
 
 Structure
